@@ -1,5 +1,5 @@
+@import './components/variables';
 $a: 2;
-
 
 html{
     body{
@@ -19,16 +19,16 @@ html{
     border: black 2px solid;
     background: red;
     &:hover{
+        background: $bg-color;
+    }
+    @if($a<5){
         background: green;
     }
     @if($a<5){
-        background: blue;
+        background: yellow;
     }
     @if($a<5){
-        background: blue;
-    }
-    @if($a<5){
-        background: blue;
+        background: red;
     }
 }
 
