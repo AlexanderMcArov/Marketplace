@@ -1,0 +1,39 @@
+$a: 2;
+
+
+html{
+    body{
+        margin: 0;
+    }
+}
+
+html{
+    &body{
+        margin: 0;
+    }
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: black 2px solid;
+    background: red;
+    &:hover{
+        background: green;
+    }
+    @if($a<5){
+        background: blue;
+    }
+    @if($a<5){
+        background: blue;
+    }
+    @if($a<5){
+        background: blue;
+    }
+}
+
+@for $i from 1 through 3{
+    .col-#{$i}{
+        width: (100%/12)*$i;
+    }
+}
