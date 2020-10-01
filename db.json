@@ -1,0 +1,40 @@
+{
+    "products":[
+        {
+            "id":0,
+            "title": "Iphone",
+            "author": "Sanya Week",
+            "description": "Смартфон iPhone Xs обладает хорошей камерой на 12+12 Мп и батареей емкостью мАч. Оперативной памяти на 4 ГБ хватает для стабильной работы системы, объем встроенной памяти составляет 64 ГБ.",
+            "image": "https://m.media-amazon.com/images/S/aplus-media/sota/58a5fa08-1b12-4da0-bd60-b68813c99419._CR0,0,488,700_PT0_SX488__.png",
+            "price": 61500,
+            "salePrice": 48738,
+            "discuntInPercent": 25,
+            "phone": "996-999-999-444",
+            "InStock": 390
+        },
+        {
+            "id":1,
+            "title": "Iphone",
+            "author": "Sanya Week",
+            "description": "Смартфон iPhone Xs обладает хорошей камерой на 12+12 Мп и батареей емкостью мАч. Оперативной памяти на 4 ГБ хватает для стабильной работы системы, объем встроенной памяти составляет 64 ГБ.",
+            "image": "https://m.media-amazon.com/images/S/aplus-media/sota/58a5fa08-1b12-4da0-bd60-b68813c99419._CR0,0,488,700_PT0_SX488__.png",
+            "price": 61500,
+            "salePrice": null,
+            "discuntInPercent": null,
+            "phone": "996-999-999-444",
+            "InStock": 390
+        },
+        {
+            "id":2,
+            "title": "Iphone",
+            "author": "Sanya Week",
+            "description": "Смартфон iPhone Xs обладает хорошей камерой на 12+12 Мп и батареей емкостью мАч. Оперативной памяти на 4 ГБ хватает для стабильной работы системы, объем встроенной памяти составляет 64 ГБ.",
+            "image": "https://m.media-amazon.com/images/S/aplus-media/sota/58a5fa08-1b12-4da0-bd60-b68813c99419._CR0,0,488,700_PT0_SX488__.png",
+            "price": 61500,
+            "salePrice": 48738,
+            "discuntInPercent": 25,
+            "phone": "996-999-999-444",
+            "InStock": 390
+        }
+    ]
+}

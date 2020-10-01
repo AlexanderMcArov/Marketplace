@@ -13,25 +13,6 @@ html{
     }
 }
 
-.box{
-    width: 100px;
-    height: 100px;
-    border: black 2px solid;
-    background: red;
-    &:hover{
-        background: $bg-color;
-    }
-    @if($a<5){
-        background: green;
-    }
-    @if($a<5){
-        background: yellow;
-    }
-    @if($a<5){
-        background: red;
-    }
-}
-
 @for $i from 1 through 3{
     .col-#{$i}{
         width: (100%/12)*$i;

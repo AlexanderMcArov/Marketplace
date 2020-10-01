@@ -1,9 +1,13 @@
+import { Container } from '@material-ui/core'
 import React from 'react'
+import ProductList from '../components/ProductList'
 
-export default function Home() {
-    return (
-        <div>
-            Home
-        </div>
-    )
+function Home() {
+  return (
+    <Container maxWidth="md">
+      <ProductList/>
+    </Container>
+  );
 }
+
+export default Home
